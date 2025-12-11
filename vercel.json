@@ -1,5 +1,6 @@
 {
     "version": 2,
+    "outputDirectory": "public",
     "framework": null,
     "functions": {
         "api/*.php": {
@@ -19,7 +20,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "https://aolkelompok7.vercel.app/",
+        "APP_URL": "https://aolkelompok7.vercel.app",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
         "APP_PACKAGES_CACHE": "/tmp/packages.php",
@@ -30,4 +31,4 @@
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
     }
-}   
+}
